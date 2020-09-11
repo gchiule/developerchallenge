@@ -1,5 +1,5 @@
 <template>
-    <div class="container content-page">
+    <div>
 
         <h1 class="mt-5">Lista de Países do Mundo ({{ countries.length }})</h1>
 

@@ -1,7 +1,7 @@
 require('./plugins')
 
 import Vue from 'vue'
-import DefaultTemplate from './layouts/DefaultTemplate'
+import BaseTemplate from './layouts/BaseTemplate'
 import router from './routes'
 import store from './vuex/'
 
@@ -11,7 +11,7 @@ import store from './vuex/'
 Vue.component('preloader-component', () => import('./components/Preloader'))
 
 new Vue({
-  render: h => h(DefaultTemplate),
+  render: h => h(BaseTemplate),
   router,
   store
 }).$mount('#app')

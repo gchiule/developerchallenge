@@ -5,16 +5,15 @@
 
         <navbar-component/>
     
-        <router-view></router-view>
+        <div class="container py-4">
+            <router-view/>
+        </div>
 
         <footer-component/>
     </div>
 </template>
 
 <script>
-    import 'bootstrap'
-    import 'bootstrap/dist/css/bootstrap.min.css'
-
     import NavbarComponent from './_partials/navbar'
     import FooterComponent from './_partials/footer'
 
@@ -27,6 +26,5 @@
 </script>
 
 <style scoped>
-    @import url('../assets/fonts/fontawesome-free-5.13.0-web/css/all.css');
-    @import url('../assets/css/developerchallenge.css');
+    @import url('../assets/css/sticky-footer-navbar.css');
 </style>

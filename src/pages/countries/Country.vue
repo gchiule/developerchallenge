@@ -1,5 +1,5 @@
 <template>
-    <div class="container content-page">
+    <div>
 
         <h1 class="mt-5">Detalhes do Pais <b>{{ country.name }}</b></h1>
 

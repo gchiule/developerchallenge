@@ -1,44 +1,38 @@
 <template>
     <div>
-
+        
         <footer class="footer">
             <div class="container text-muted">
-                <span>
+                <span id="footer-text">
                     &copy; {{ new Date().getFullYear() }}
-                    {{ textRights }} <span id="company">| Frontend Developer (m/f) - Developer Challenge</span>
+                    Frontend Developer (m/f) - Developer Challenge
                 </span>
 
-                <span id="designed-by">
-                    {{ textFooter }} {{ textBy }}
+                <span id="designed-by-area">
+                    Desenvolvido por Gerson Hugo Samuel Chiule
                 </span>
             </div>
         </footer>
-        
+
     </div>
 </template>
 
-<script>
-    export default {
-        data () {
-            return {
-                textFooter: 'Desenvolvido por',
-                url: '#',
-                textBy: 'Gerson Hugo Samuel Chiule - 842441262',
-                textRights: '- Todos os direitos reservados'
-            }
-        }
-    }
-</script>
-
-<style scoped>
-    #designed-by {
-        opacity: 0.5;
-        font-size: 12px;
-    }
-
+<style>
     @media screen and (max-width: 736px) {
-        #designed-by, #company {
+        #footer-text {
+            font-size: 10px;
+        }
+
+        #designed-by-area {
             display: none;
         }
+    }
+
+    /* Small devices (portrait tablets and large phones, 600px and up) */
+    @media only screen and (max-width: 1024px) {}
+
+    #designed-by-area {
+        opacity: 0.3;
+        font-size: 10px;
     }
 </style>
