@@ -39,7 +39,7 @@
 
             <li>
                 <strong>Bandeira:</strong> <br>
-                <a href="https://restcountries.eu/data/moz.svg" target="_blank" class="btn btn-info">Visualizar</a>
+                <a :href="country.flag" target="_blank" class="btn btn-info">Visualizar</a>
             </li>
         </ul>
 
