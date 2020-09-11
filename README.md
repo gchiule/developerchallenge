@@ -19,7 +19,7 @@ npm run build
 See [Configuration Reference](https://cli.vuejs.org/config/).
 
 
-## Informações, Instruções E Pacotes de Terceiros
+## Informações, Instruções e Pacotes de Terceiros
 API REST que nos permite ver informações de propriedades detalhadas de diferentes países.
 Esta min APP foi feita em Vue JS.
 A mesma consome duas APIs dais quais https://restcountries.eu/rest/v2/all para listar todos países e,
