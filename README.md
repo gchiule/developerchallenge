@@ -30,7 +30,7 @@ Para as requisições http utilizei o axios.
 Para navegação entre página utilizei o vue-router.
 Para gerir os dados da API utilizei o vuex.
 
-APP tem três páginas: Página Principal, Página que lista todos os países encontrados na API, Página para ver os detalhes de cada país e a Página 404.
+APP tem 4 páginas: Página Principal, Página que lista todos os países encontrados na API, Página para ver os detalhes de cada país e a Página 404.
 
 NB: Para abrir localmente no browser só tem de seguir as instruções acima (deve garantir que o host tem o nodejs instalado). No final sempre rodar npm run serve.
 Na minha maquina local acesso através de localhost:8080.
